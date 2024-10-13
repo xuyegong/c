@@ -2,8 +2,7 @@
 using namespace std;
 int main()
 {
-	 const char* p = "abcde";
-	 const char* q = "abcde";
-	 if (p == q)printf("1");
-	 else printf("0");
+	int a = 1;
+	if (*(char*)&a)printf("Ð¡¶Ë");
+	else printf("´ó¶Ë");
 }
